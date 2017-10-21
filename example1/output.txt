@@ -1,0 +1,57 @@
+commands: empty
+lexed start as START
+lexed   as WS
+lexed widget as WORD:widget
+lexed   as WS
+lexed 10 as NUMBER: number(10)
+lexed 
+ as EOL
+start_command: WORD=widget NUMBER=number(10)
+command: start_command=start(target=widget, power=number(10))
+commands: commands=program(children=[
+]) // program
+command=start(target=widget, power=number(10))
+lexed start as START
+lexed   as WS
+lexed fozzle as WORD:fozzle
+lexed   as WS
+lexed 0 as NUMBER: number(0)
+lexed 
+ as EOL
+start_command: WORD=fozzle NUMBER=number(0)
+command: start_command=start(target=fozzle, power=number(0))
+commands: commands=program(children=[
+  start(target=widget, power=number(10)) // child 0
+]) // program
+command=start(target=fozzle, power=number(0))
+lexed stop as STOP
+lexed   as WS
+lexed whoozit as WORD:whoozit
+lexed 
+ as EOL
+stop_command: WORD=whoozit
+command: stop_command=stop(target=whoozit)
+commands: commands=program(children=[
+  start(target=widget, power=number(10)) // child 0
+  start(target=fozzle, power=number(0)) // child 1
+]) // program
+command=stop(target=whoozit)
+lexed group as GROUP number(0)
+lexed   as WS
+lexed test as WORD:test
+lexed   as WS
+lexed this as WORD:this
+lexed   as WS
+lexed font as WORD:font
+lexed   as WS
+lexed sand as WORD:sand
+lexed 
+ as EOL
+command: Group=number(0)
+commands: commands=program(children=[
+  start(target=widget, power=number(10)) // child 0
+  start(target=fozzle, power=number(0)) // child 1
+  stop(target=whoozit) // child 2
+]) // program
+command=stop(target=whoozit)
+syntax error.
