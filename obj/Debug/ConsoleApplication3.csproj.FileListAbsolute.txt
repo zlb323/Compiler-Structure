@@ -1,0 +1,15 @@
+C:\Users\zach1\Desktop\School\classes\C#\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+C:\Users\zach1\Desktop\School\classes\C#\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+C:\Users\zach1\Desktop\School\classes\C#\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+C:\Users\zach1\Desktop\School\classes\C#\ConsoleApplication3\ConsoleApplication3\bin\Debug\Antlr4.Runtime.dll
+C:\Users\zach1\Desktop\School\classes\C#\ConsoleApplication3\ConsoleApplication3\bin\Debug\Antlr4.Runtime.xml
+C:\Users\zach1\Desktop\School\classes\C#\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
+C:\Users\zach1\Desktop\School\classes\C#\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+C:\Users\zach1\Desktop\School\classes\C#\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
+C:\Users\zach1\Desktop\School\classes\C#\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojResolveAssemblyReference.cache
+C:\Users\zach1\Desktop\School\classes\C#\ConsoleApplication3\ConsoleApplication3\obj\Debug\cssLexer.cs
+C:\Users\zach1\Desktop\School\classes\C#\ConsoleApplication3\ConsoleApplication3\obj\Debug\cssParser.cs
+C:\Users\zach1\Desktop\School\classes\C#\ConsoleApplication3\ConsoleApplication3\obj\Debug\cssListener.cs
+C:\Users\zach1\Desktop\School\classes\C#\ConsoleApplication3\ConsoleApplication3\obj\Debug\cssBaseListener.cs
+C:\Users\zach1\Desktop\School\classes\C#\ConsoleApplication3\ConsoleApplication3\obj\Debug\cssVisitor.cs
+C:\Users\zach1\Desktop\School\classes\C#\ConsoleApplication3\ConsoleApplication3\obj\Debug\cssBaseVisitor.cs
